@@ -3,10 +3,8 @@ package com.jwt.dtos;
 import lombok.Data;
 
 @Data
-public class SignUpRequest {
-    private String firstName;
-    private String lastName;
+public class SignInRequest {
     private String email;
-
     private String password;
+
 }
